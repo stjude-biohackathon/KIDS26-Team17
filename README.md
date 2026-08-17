@@ -6,12 +6,12 @@ This repository is a starting point for a three-day team project. This repositor
 
 ## Project Profile
 
-- **Project name:** [Add a short, descriptive name]
+- **Project name:** Where Healing Happens: [Mapping Mental Health in Childhood Cancer]
 - **Question, problem, or opportunity:** [What are you exploring?]
 - **Data, inputs, or evidence:** [What will you use, and where does it come from?]
 - **Expected output:** [What will you show, test, explain, or demonstrate?]
-- **Tools and stack:** [Languages, libraries, notebooks, APIs, databases, services, or other tools]
-- **Team lead:** [Name and GitHub handle]
+- **Tools and stack:** [ESRI ArcGIS Pro, SAS, SPSS, Power BI, Excel]
+- **Team lead:** [Sylwia Feibelman and GitHub sfeibelm]
 - **Team members and roles:** [Link to `project-management/team.md`]
 - **Communication:** [Add the agreed channel or contact]
 
