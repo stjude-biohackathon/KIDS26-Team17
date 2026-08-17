@@ -7,14 +7,13 @@ This repository is a starting point for a three-day team project. This repositor
 ## Project Profile
 
 - **Project name:** Where Healing Happens: Mapping Mental Health in Childhood Cancer
-- **Question, problem, or opportunity:** [What are you exploring?]
+- **Question, problem, or opportunity:** We are exploring how environmental and socio-economic factors surrounding where pediatric cancer patients live may be associated with their mental health and quality-of-life outcomes. Specifically, we will examine relationships between environmental exposures and neighborhood characteristics—such as air pollution, noise, green space, land use, Child Opportunity Index, and other SES measures—and PROMIS and MSPSS scores. The goal is to determine whether spatial patterns or environmental stressors may help explain differences in psychological well-being and social support among pediatric patients.
 - **Data, inputs, or evidence:** [What will you use, and where does it come from?]
 - **Expected output:**
-- 1. find patient location and map them onto greenery, pollutions, and COI maps
+1. find patient location and map them onto greenery, pollutions, and COI maps
 2. look for spatial relationships between psychological well-being and environmental and social variables 
 3. compare results of statistical as analyses using SPSS/SAS to spatial analysis using Geographic Information System (GIS)
 4. create interactive visualizations to present the results 
-
 - **Tools and stack:** ESRI ArcGIS Pro, QGIS, SAS, SPSS, Power BI, PowerPoint, Excel
 - **Team lead:** Sylwia Feibelman and GitHub sfeibelm
 - **Team members and roles:** [Link to `project-management/team.md`]
