@@ -10,7 +10,7 @@ This repository is a starting point for a three-day team project. This repositor
 - **Question, problem, or opportunity:** [What are you exploring?]
 - **Data, inputs, or evidence:** [What will you use, and where does it come from?]
 - **Expected output:** [What will you show, test, explain, or demonstrate?]
-- **Tools and stack:** [ESRI ArcGIS Pro, SAS, SPSS, Power BI, Excel]
+- **Tools and stack:** [ESRI ArcGIS Pro, QGIS, SAS, SPSS, Power BI, PowerPoint, Excel]
 - **Team lead:** [Sylwia Feibelman and GitHub sfeibelm]
 - **Team members and roles:** [Link to `project-management/team.md`]
 - **Communication:** [Add the agreed channel or contact]
