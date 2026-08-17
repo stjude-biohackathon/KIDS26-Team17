@@ -6,12 +6,17 @@ This repository is a starting point for a three-day team project. This repositor
 
 ## Project Profile
 
-- **Project name:** Where Healing Happens: [Mapping Mental Health in Childhood Cancer]
+- **Project name:** Where Healing Happens: Mapping Mental Health in Childhood Cancer
 - **Question, problem, or opportunity:** [What are you exploring?]
 - **Data, inputs, or evidence:** [What will you use, and where does it come from?]
-- **Expected output:** [What will you show, test, explain, or demonstrate?]
-- **Tools and stack:** [ESRI ArcGIS Pro, QGIS, SAS, SPSS, Power BI, PowerPoint, Excel]
-- **Team lead:** [Sylwia Feibelman and GitHub sfeibelm]
+- **Expected output:**
+- 1. find patient location and map them onto greenery, pollutions, and COI maps
+2. look for spatial relationships between psychological well-being and environmental and social variables 
+3. compare results of statistical as analyses using SPSS/SAS to spatial analysis using Geographic Information System (GIS)
+4. create interactive visualizations to present the results 
+
+- **Tools and stack:** ESRI ArcGIS Pro, QGIS, SAS, SPSS, Power BI, PowerPoint, Excel
+- **Team lead:** Sylwia Feibelman and GitHub sfeibelm
 - **Team members and roles:** [Link to `project-management/team.md`]
 - **Communication:** [Add the agreed channel or contact]
 
