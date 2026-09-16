@@ -28,7 +28,6 @@ Naming the tools and stack early helps the team lead create useful roles and div
 
 ## About
 
-[Add a short explanation of the motivation, background, and why the question or problem matters.]
 Clinical care for pediatric cancer patients are centered around biological and treatment related factors, overlooking the local environmental and socio-economic factors that may help explain mental health and quality of life outcomes. A growing body of evidence in public health and urban planning shows that neighborhood conditions, such as air quality, noise, access to green space, and broader measures of opportunity like housing, education, and economic stability, can meaningfully shape stress, resilience, and recovery. For children undergoing cancer treatment, these environmental and socio-economic stressors may compound clinical risk factors in ways that impact treatment. By combining deidentified clinical data with publicly available geospatial datasets, this project aims to surface those patterns for the first time in this population. This project could help clinical teams identify which patients or communities might benefit most from additional psychosocial support, ultimately making mental health care more proactive and equitable rather than purely reactive.
 
 ## Roadmap and Milestones
