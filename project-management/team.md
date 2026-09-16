@@ -1,17 +1,17 @@
 # Team and Roles
 
-- **Team name:** [Add name]
-- **Team lead:** [Name and GitHub handle]
-- **Communication channel:** [Add link]
+- **Team name:** Where Healing Happens: Mapping Mental Health in Childhood Cancer
+- **Team lead:** Sylwia Feibelman
+- **Communication channel:** Slack - Team 17 (https://stjudebiohackathon.slack.com/archives/C0BSC2CFRF0)
 - **Project question/problem:** [Add one sentence]
-- **Expected output:** [Add one sentence]
-- **Tools and stack:** [Languages, libraries, notebooks, APIs, databases, services]
+- **Expected output:** Map and statistical analyses
+- **Tools and stack:** SAS, ArcGIS (online and desktop), online, government data sources; St. Jude's __ study's ___ (double-study ID protection of patient info; location protected by __; [Languages, libraries, notebooks, APIs, databases, services]
 
 ## Roles
 
 | Person | Role | Main responsibility | Backup or support needed |
 | --- | --- | --- | --- |
-| [Name] | [Role] | [Responsibility] | [Support] |
+| Sylwia Feibelman | Team lead  | [Responsibility] | [Support] |
 | [Name] | [Role] | [Responsibility] | [Support] |
 | [Name] | [Role] | [Responsibility] | [Support] |
 
