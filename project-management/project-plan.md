@@ -6,7 +6,7 @@
 
 ## Tools
 
-[What tools do you plan to use for this project?]
+SAS, ArcGIS (online and desktop), online, government data sources; St. Jude's __ study's ___ (double-study ID protection of patient info; location protected by __; [Languages, libraries, notebooks, APIs, databases, services]
 
 ## First Tasks
 
