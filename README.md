@@ -17,7 +17,7 @@ This repository is a starting point for a three-day team project. This repositor
 - **Tools and stack:** ESRI ArcGIS Pro, QGIS, SAS, SPSS, Power BI, PowerPoint, Excel
 - **Team lead:** Sylwia Feibelman and GitHub sfeibelm
 - **Team members and roles:** [Link to `project-management/team.md`]
-- **Communication:** [Add the agreed channel or contact]
+- **Communication:** Slack - Team 17
 
 Naming the tools and stack early helps the team lead create useful roles and divide work realistically. It is fine to revise this section as the project develops.
 
