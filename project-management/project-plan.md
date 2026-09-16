@@ -3,6 +3,7 @@
 ## Goal
 
 [What will the team understand, build, test, or demonstrate by the end of the event?]
+Develop a proof-of-concept workflow that integrates patient geographic and clinical data with environmental and socioeconomic datasets and produces a series of maps and visualizations showing potential relationships with psychological outcomes.
 
 ## Tools
 
