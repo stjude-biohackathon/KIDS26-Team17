@@ -10,6 +10,7 @@
 ## Roles
 
 | **Person**                      | **Role**         | **Main responsibility** | **Backup or support needed**       |
+| ------------------------------- | ---------------- | ----------------------- | ---------------------------------- |
 | Sylwia Feibelman                | Team LEAD        | Team lead               | Lead, coordination                 |
 | Kathy Russell                   | Data LEAD        | Team lead               | Lead, data sources                 |
 | Kelly Pimenta                   | Data team        | Team lead               | Lead, coordination                 |
