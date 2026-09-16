@@ -11,6 +11,11 @@ SAS, ArcGIS (online and desktop), online, government data sources; St. Jude's __
 
 ## First Tasks
 
+- [ ] Data Preparation (PROMIS, MSPSS)- Kathy
+- [ ] Data Preparation (GIS) - Sylwia
+- [ ] Explore Correlations (neighborhood factors x social support & pyschological health - Nazneen, Kathy, & Kelly 
+- [ ] Github Documentation - Ketaki, Meghan, Silvia Arantza, Pei
+- [ ] GIS Interactive  - Sylwia
 - [ ] [Small task] - [Owner]
 - [ ] [Small task] - [Owner]
 - [ ] [Small task] - [Owner]
