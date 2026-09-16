@@ -18,6 +18,7 @@ This repository is a starting point for a three-day team project. This repositor
 - **Team lead:** Sylwia Feibelman and GitHub sfeibelm
 - **Team members and roles:** [Link to `project-management/team.md`]
 - **Communication:** Slack - Team 17
+5. Consider submitting abstract to KIDS26
 
 Naming the tools and stack early helps the team lead create useful roles and divide work realistically. It is fine to revise this section as the project develops.
 
@@ -34,10 +35,10 @@ Clinical care for pediatric cancer patients is centered around biological- and t
 
 | When | Focus | Expected outcome |
 | --- | --- | --- |
-| Day 1 | Agree on the question, inputs, stack, roles, and first tasks | A shared plan and a first small change in the repository |
-| Day 2 | Build, test, and compare approaches | A working result or clear evidence about what does not work |
+| Day 1 | Agree on project question, inputs, tools, roles, and first tasks | A shared plan and initial steps in SAS datasets and GitHub repository |
+| Day 2 | Run GIS and statistical analysis; Build, test, and compare approaches | A map and/or statistical analysis (and clear evidence?) about results |
 | Day 3 | Stabilize, document, and present | A demo or handoff with methods, limitations, and next steps |
 
-The goal is not a perfect production system. The goal is a clear, honest, useful result that the team can explain and others can build on.
+The goal is a clear, honest, useful result that the team can explain and others can build on.
 
 
