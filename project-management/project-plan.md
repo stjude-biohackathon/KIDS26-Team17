@@ -29,5 +29,8 @@ The project will be considered complete when the team develops a proof-of-concep
 ## Risks and Questions
 
 - [What might block the team?]
+Data of the patients: data breaches, privacy violations, publication of results, questions about consent and security. 
 - [What assumption needs checking?]
+- Data privacy & anonymization, consent &ethics, data quality, and cloud security & compilance
 - [Who can help?]
+Data protection office, data scientist 
