@@ -24,7 +24,7 @@ Naming the tools and stack early helps the team lead create useful roles and div
 ## Vision and Mission
 
 - **Vision:** [Describe the change, insight, or capability you hope this project supports.]
-- **Mission:** [Describe what the team will do during the biohackathon to move toward that vision.]
+- **Mission:**	With this project, we hope to explore how socio-economic and area/neighborhood level factors affect mental health & quality of life for children undergoing active cancer treatments.
 
 ## About
 
