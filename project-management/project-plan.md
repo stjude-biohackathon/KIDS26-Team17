@@ -24,7 +24,7 @@ SAS, ArcGIS (online and desktop), online, government data sources; St. Jude's __
 
 ## Definition of Done
 
-The project will be considered complete when the team develops a proof-of-concept workflow that integrates patient geographic and clinical data with environmental and socioeconomic datasets and produces a series of maps and visualizations showing potential relationships with psychological outcomes. In the future these objectives can be expanded by developing additional maps, incorporating other psychological constructs beyond PROMIS and MSPSS, and adapting the workflow to other childhood catastrophic diseases and pediatric populations. The final products could also be shared with other St. Jude researchers and collaborators across the country, allowing additional feed of data to be incorporated in creating a larger, more geographically diverse dataset that is more representative of the U.S. population.
+The project will be considered complete when the team develops a proof-of-concept workflow that integrates patient geographic and clinical data with environmental and socioeconomic datasets and produces a series of maps and visualizations showing potential relationships with psychological outcomes. In the future, these objectives can be expanded by developing additional maps, incorporating other psychological constructs beyond PROMIS and MSPSS, and adapting the workflow to other childhood catastrophic diseases and pediatric populations. The final products could also be shared with other St. Jude researchers and collaborators across the country, allowing additional feed of data to be incorporated in creating a larger, more geographically diverse dataset that is more representative of the U.S. population.
 
 ## Risks and Questions
 
