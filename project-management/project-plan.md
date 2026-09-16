@@ -33,4 +33,20 @@ Data of the patients: data breaches, privacy violations, publication of results,
 - [What assumption needs checking?]
 - Data privacy & anonymization, consent &ethics, data quality, and cloud security & compilance
 - [Who can help?]
-Data protection office, data scientist 
+Data protection office, data scientist
+
+## Variable categorization **NEEDS UPDATE from Data team**
+- categorized PM2.5 into air quality levels (good, moderate)                             
+- categorized NO2 into air quality levels (good)                                                  
+- categorized SO2 into air quality levels (good)                                               
+- categorized CO into air quality levels (good)                                                
+- converted variables (NO2, SO2) from ppb to ppm in other to classify                        
+- categorized air quality index (good, moderate)                                              
+- categorized noise pollution (low, moderate)                                                  
+- created new variable (population exposure group)
+**Descriptive**
+- Total sample is 490 individuals
+- 245 individuals have good on every air quality index and low noise population
+- 245 individuals have at least 1 elevated exposure
+- Created new variable (proportion classified land that is green)
+- Created new variable (Green group 4 levels)
