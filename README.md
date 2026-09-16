@@ -23,7 +23,7 @@ Naming the tools and stack early helps the team lead create useful roles and div
 
 ## Vision and Mission
 
-- **Vision:** [Describe the change, insight, or capability you hope this project supports.]
+- **Vision:**	With this project, we aim to create a proof of concept workflow and interactive dashboards to visualize potential geographic patterns, spatial clustering & hotspot visualizations, correlation analyses between PROMIS / MSPSS scores. 
 - **Mission:**	With this project, we hope to explore how socio-economic and area/neighborhood level factors affect mental health & quality of life for children undergoing active cancer treatments.
 
 ## About
