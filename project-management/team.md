@@ -9,16 +9,16 @@
 
 ## Roles
 
-| **Person**                      | **Role**         | **Main responsibility** | **Backup or support needed**       |
-| ------------------------------- | ---------------- | ----------------------- | ---------------------------------- |
-| Sylwia Feibelman                | Team LEAD        | Team lead               | Lead, coordination                 |
-| Kathy Russell                   | Data LEAD        | Team lead               | Lead, data sources                 |
-| Kelly Pimenta                   | Data team        | Team lead               | Lead, coordination                 |
-| Ketaki Saokar                   | Reporting LEAD   | Team lead               | Lead, coordination                 |
-| Nazneem Kaleem Shaikh           | Data team        | Team lead               | Lead, coordination                 |
-| Pei Tan                         | Data team        | Reporting team          | Lead, coordination                 |
-| Silvia Arantza Sanchez Guerrero | Reporting team   | Team lead               | Lead, coordination                 |
-| Liu Yang                        | Reporting team   | Team lead               | Lead, coordination                 |
-| Meghan Carr                     | Reporting team   | Team lead               | Lead, coordination                 |
+| **Person**                      | **Role**         | **Main responsibility**       | **Backup or support needed**                                |
+| ------------------------------- | ---------------- | ----------------------------- | ----------------------------------------------------------- |
+| Sylwia Feibelman                | Team LEAD        | Oversees full project         | Coordinates between sub-teams and answers questions         |
+| Kathy Russell                   | Data LEAD        | Oversees data team            | Coordinates data team and assigns tasks                     |
+| Kelly Pimenta                   | Data team        | Contributes to data team      | Contributes to data sourcing, analysis, and interpretation  |
+| Nazneem Kaleem Shaikh           | Data team        | Contributes to data team      | Contributes to data sourcing, analysis, and interpretation  |
+| Pei Tan                         | Data team        | Contributes to data team      | Contributes to data sourcing, analysis, and interpretation  |
+| Ketaki Saokar                   | Outreach LEAD    | Oversees outreach team        | Coordinates outreach team and assigns tasks                 |
+| Silvia Arantza Sanchez Guerrero | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
+| Liu Yang                        | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
+| Meghan Carr                     | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
 
 Roles can overlap. Revisit them when the project direction or stack changes.
