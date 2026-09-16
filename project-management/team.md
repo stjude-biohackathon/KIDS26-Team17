@@ -16,7 +16,7 @@
 | Ketaki Saokar                   | Reporting LEAD   | Team lead               | Lead, coordination                 |
 | Nazneem Kaleem Shaikh           | Data team        | Team lead               | Lead, coordination                 |
 | Pei Tan                         | Data team        | Reporting team          | Lead, coordination                 |
-| Silvia ARANTZA Sanchez Guerrero | Reporting team   | Team lead               | Lead, coordination                 |
+| Silvia Arantza Sanchez Guerrero | Reporting team   | Team lead               | Lead, coordination                 |
 | Liu Yang                        | Reporting team   | Team lead               | Lead, coordination                 |
 | Meghan Carr                     | Reporting team   | Team lead               | Lead, coordination                 |
 
