@@ -1,14 +1,10 @@
-# Biohackathon Project Template
-
-This repository is a starting point for a three-day team project. This repository is populated with a starting template for team organization and planning. Use it to plan, build, and document work. Please adjust this repository to suit the needs of your team.
-
-> **Team leads:** Start with the [team lead checklist](project-management/CHECKLIST.md) before the event or during your first team meeting.
+# Biohackathon Project: **Where Healing Happens - Mapping Mental Health in Childhood Cancer**
 
 ## Project Profile
 
-- **Project name:** Where Healing Happens: Mapping Mental Health in Childhood Cancer
+- **Project name:** Where Healing Happens - Mapping Mental Health in Childhood Cancer
 - **Question, problem, or opportunity:** We are exploring how environmental and socio-economic factors surrounding where pediatric cancer patients live may be associated with their mental health and quality-of-life outcomes. Specifically, we will examine relationships between environmental exposures and neighborhood characteristics—such as air pollution, noise, green space, land use, Child Opportunity Index, and other SES measures—and PROMIS and MSPSS scores. The goal is to determine whether spatial patterns or environmental stressors may help explain differences in psychological well-being and social support among pediatric patients.
-- **Data, inputs, or evidence:** [What will you use, and where does it come from?]
+- **Data, inputs, or evidence:**
 - **Expected output:**
 1. find patient location and map them onto greenery, pollutions, and COI maps
 2. look for spatial relationships between psychological well-being and environmental and social variables 
@@ -40,5 +36,3 @@ Clinical care for pediatric cancer patients is centered around biological- and t
 | Day 3 | Stabilize, document, and present | A demo or handoff with methods, limitations, and next steps |
 
 The goal is a clear, honest, useful result that the team can explain and others can build on.
-
-
