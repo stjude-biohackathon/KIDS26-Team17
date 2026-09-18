@@ -176,3 +176,38 @@ colnames(under18) <- str_replace(colnames(under18), "All", "18 and under")
 colnames(over18) <- str_replace(colnames(over18), "All", "19+")
 
 comb <- cbind(under18, over18)
+comb %>%
+  kbl(
+    align = c("l", "l"),
+    escape = FALSE
+  ) %>%
+  kable_classic(
+    full_width = FALSE,
+    html_font = "Arial"
+  ) %>%
+  add_header_above(
+    c("Summary by age group" = 3),
+    bold = TRUE,
+    color = "white",
+    background = "#4472C4"
+  ) %>%
+  # Numeric column header
+  row_spec(
+    c(1,40,46),
+    bold = TRUE,
+    color = "white",
+    background = "#85a4d9"
+  ) %>%
+  # Categorical/group rows
+  row_spec(
+    c(2,9,13,21,29,35,41),
+    background = "#E2EAF5",
+    bold = TRUE,
+    color = "#2F5597"
+  ) %>%
+  column_spec(1, bold = TRUE) %>%
+  kable_styling(
+    full_width = FALSE,
+    position = "center",
+    font_size = 12
+  )
