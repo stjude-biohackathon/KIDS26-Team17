@@ -5,6 +5,7 @@
 - **Project name:** Where Healing Happens - Mapping Mental Health in Childhood Cancer
 - **Question, problem, or opportunity:** We are exploring how environmental and socio-economic factors surrounding where pediatric cancer patients live may be associated with their mental health and quality-of-life outcomes. Specifically, we will examine relationships between environmental exposures and neighborhood characteristics—such as air pollution, noise, green space, land use, Child Opportunity Index, and other SES measures—and PROMIS and MSPSS scores. The goal is to determine whether spatial patterns or environmental stressors may help explain differences in psychological well-being and social support among pediatric patients.
 - **Data, inputs, or evidence:**
+1. [GIS mental health correlations](data/)
 - **Expected output:**
 1. find patient location and map them onto greenery, pollutions, and COI maps
 2. look for spatial relationships between psychological well-being and environmental and social variables 
@@ -12,9 +13,9 @@
 4. create interactive visualizations to present the results 
 - **Tools and stack:** ESRI ArcGIS Pro, QGIS, R, SAS, SPSS, Power BI, PowerPoint, Excel
 - **Team lead:** Sylwia Feibelman and GitHub sfeibelm
-- **Team members and roles:** [`project-management/team.md`](project-management)
+- **Team members and roles:** [`project-management/team.md`](project-management/team.md)
 - **Communication:** Slack - Team 17
-5. Consider submitting abstract to KIDS26
+5. [Abstract](abstract/) to KIDS26
 
 Naming the tools and stack early helps the team lead create useful roles and divide work realistically. It is fine to revise this section as the project develops.
 
@@ -35,4 +36,8 @@ Clinical care for pediatric cancer patients is centered around biological- and t
 | Day 2 | Run GIS and statistical analysis; Build, test, and compare approaches | A map and/or statistical analysis (and clear evidence?) about results |
 | Day 3 | Stabilize, document, and present | A demo or handoff with methods, limitations, and next steps |
 
-The goal is a clear, honest, useful result that the team can explain and others can build on.
+## Future submission
+We plan to submit the results from this project to the Knowledge in Data Science Symposium 2026.
+
+"Where Healing Happens: Mapping Neighborhood Opportunity, Environmental Exposures, and Psychosocial Well-Being Among Adolescents and Young Adults With Cancer""
+
