@@ -5,7 +5,7 @@
 - **Communication channel:** Slack - Team 17 (https://stjudebiohackathon.slack.com/archives/C0BSC2CFRF0)
 - **Project question/problem:** Mental health outcomes in pediatric cancer patients may be influenced by environmental and socio-economic factors, so our project integrates deidentified patient data with geospatial datasets to explore these relationships and generate insights.
 - **Expected output:** Map and statistical analyses
-- **Tools and stack:** SAS, ArcGIS (online and desktop), online, government data sources; St. Jude's __ study's ___ (double-study ID protection of patient info; location protected by __; [Languages, libraries, notebooks, APIs, databases, services]
+- **Tools and stack:** R, SAS, PowerBI, ArcGIS (online and desktop), government data sources; St. Jude's double-study ID protection of patient info.
 
 ## Roles
 
@@ -18,8 +18,7 @@
 | Pei Tan                         | Data team        | Contributes to data team      | Contributes to data sourcing, analysis, and interpretation  |
 | Ketaki Saokar                   | Outreach LEAD    | Oversees outreach team        | Coordinates outreach team and assigns tasks                 |
 | Silvia Arantza Sanchez Guerrero | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
-| Liu Yang                        | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
 | Meghan Carr                     | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
-| Joseph Handwerker               | Systems Lead     | Oversees systems work         | Manages file repo and contributes to data tasks             |
+| Joseph Handwerker               | Systems LEAD     | Oversees systems work         | Manages file repo and contributes to data tasks             |
+| Liu Yang                        | Systems team     | Contributes to systems work   | Contributes to file management and data tasks               |
 
-Roles can overlap. Revisit them when the project direction or stack changes.
