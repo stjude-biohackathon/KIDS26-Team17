@@ -127,3 +127,39 @@ file_variables <- data.frame("Variable" = c("ptAge",
                                         "Continuous",
                                         "Factor",
                                         "Continuous"))
+
+ONEtable(file, file_variables) %>%
+  kbl(
+    align = c("l", "l"),
+    escape = FALSE
+  ) %>%
+  kable_classic(
+    full_width = FALSE,
+    html_font = "Arial"
+  ) %>%
+  add_header_above(
+    c("All participants" = 2),
+    bold = TRUE,
+    color = "white",
+    background = "#4472C4"
+  ) %>%
+  # Numeric column header
+  row_spec(
+    c(1,45,51),
+    bold = TRUE,
+    color = "white",
+    background = "#85a4d9"
+  ) %>%
+  # Categorical/group rows
+  row_spec(
+    c(2,7,14,18,26,34,40,46),
+    background = "#E2EAF5",
+    bold = TRUE,
+    color = "#2F5597"
+  ) %>%
+  column_spec(1, bold = TRUE) %>%
+  kable_styling(
+    full_width = FALSE,
+    position = "center",
+    font_size = 12
+  )
