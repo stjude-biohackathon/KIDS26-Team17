@@ -163,3 +163,16 @@ ONEtable(file, file_variables) %>%
     position = "center",
     font_size = 12
   )
+
+
+# Age groups 
+file_Under18 <- file %>% filter(ptAge4grp == "13-15y" | ptAge4grp == "16-18y")
+file_Over18 <- file %>% filter(ptAge4grp == "19-21y" | ptAge4grp == "22-24y")
+file_variables_grouped <- file_variables[-which(file_variables$Variable == "ptAge4grp"),] 
+
+under18 <- ONEtable(file_Under18, file_variables_grouped)
+over18 <- ONEtable(file_Over18, file_variables_grouped)
+colnames(under18) <- str_replace(colnames(under18), "All", "18 and under")
+colnames(over18) <- str_replace(colnames(over18), "All", "19+")
+
+comb <- cbind(under18, over18)
