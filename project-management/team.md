@@ -20,5 +20,6 @@
 | Silvia Arantza Sanchez Guerrero | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
 | Liu Yang                        | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
 | Meghan Carr                     | Outreach team    | Contributes to outreach team  | Contributes to descriptions, slides, and visualizations     |
+| Joseph Handwerker               | Systems Lead     | Oversees systems work         | Manages file repo and contributes to data tasks             |
 
 Roles can overlap. Revisit them when the project direction or stack changes.
