@@ -1,23 +1,30 @@
+/*********************Import & Data Merge *****/
 proc import datafile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\Patients - Survey and demographics data.xls" 
 		out=work.biohac26_1 dbms=xls replace;
 	sheet="FINAL";
 run;
+
 proc import datafile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\Patients - Spatial data Study ID ONLY.xls" 
-		out=work.biohac26_2 dbms=xls replace;
+		out=work.biohac26_11 dbms=xls replace;
 	sheet="US_only_ExportTable_Geocoded_Ex";
 run;
+
 proc sort data=biohac26_1;
 	by stdyid;
 run;
+
 proc sort data=biohac26_11;
 	by stdyid;
 run;
+
 data biohac26;
 	merge biohac26_1 biohac26_11;
 	by stdyid;
 run;
+
 proc contents data=biohac26 position;
 run;
+
 proc corr data=biohac26;
 	var ptPROMIS_combAnxTsc ptPROMIS_combDepTsc ptPROMIS_combPhyTsc 
 		ptPROMIS_combPInTsc ptMSPSS_sumScore ptMSPSS_sigothSum ptMSPSS_familySum 
@@ -33,8 +40,8 @@ proc corr data=biohac26;
 		Noise_Pollution 'AQI Air Quality Index 2023 by CB'n 
 		'2020 Rural-Urban Commuting Area'n;
 run;
-/*********************Correlations*****/
 
+/*********************Correlations*****/
 /*********************Set1*****/
 proc corr data=biohac26;
 	var ptPROMIS_combAnxTsc ptPROMIS_combDepTsc ptPROMIS_combPhyTsc 
@@ -63,6 +70,7 @@ proc corr data=biohac26;
 		Child_O_Index14 Child_O_Index15 Child_O_Index16 Child_O_Index17 
 		Child_O_Index18;
 run;
+
 /*********************Set3*****/
 proc corr data=biohac26;
 	var ptPROMIS_combAnxTsc ptPROMIS_combDepTsc ptPROMIS_combPhyTsc 
@@ -70,6 +78,7 @@ proc corr data=biohac26;
 		ptMSPSS_friendSum;
 	with Var1 Var2 Var3 Var4 Var5 Var6 Var7 Var8 Var9;
 run;
+
 /*********************Set4*****/
 proc corr data=biohac26;
 	var ptPROMIS_combAnxTsc ptPROMIS_combDepTsc ptPROMIS_combPhyTsc 
@@ -93,6 +102,7 @@ proc corr data=biohac26;
 		ptMSPSS_friendSum;
 	with Var58 Var61 Var62 Var63 Var64 Var65 Var66 Var68;
 run;
+
 proc import datafile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\Patients - Survey and demographics data - With new categorical.xls" 
 		out=work.biohac26_2 dbms=xls replace;
 	sheet="Final";
@@ -100,14 +110,15 @@ run;
 
 proc contents data=biohac26_2 position;
 run;
-/*********************ANOVA for Greengrp & Tapestry segment*****/
 
+/*********************ANOVA for Greengrp & Tapestry segment*****/
 proc anova data=biohac26_2;
 	class greengrp4;
 	model ptPROMIS_combAnxTsc ptPROMIS_combDepTsc ptPROMIS_combPhyTsc 
 		ptPROMIS_combPInTsc=greengrp4;
 	run;
 quit;
+
 proc anova data=biohac26_2;
 	class PollExpsGrp2;
 	model ptPROMIS_combAnxTsc ptPROMIS_combDepTsc ptPROMIS_combPhyTsc 
@@ -128,18 +139,21 @@ proc anova data=biohac26_2;
 		ptMSPSS_friendSum=PollExpsGrp2;
 	run;
 quit;
+
 proc anova data=biohac26_2;
 	class PollExpsGrp2;
 	model ptMSPSS_sumScore ptMSPSS_sigothSum ptMSPSS_familySum 
 		ptMSPSS_friendSum=PollExpsGrp2;
 	run;
 quit;
+
 proc anova data=biohac26_2;
 	class greengrp4;
 	model ptMSPSS_sumScore ptMSPSS_sigothSum ptMSPSS_familySum 
 		ptMSPSS_friendSum=greengrp4;
 	run;
 quit;
+
 proc anova data=biohac26_2;
 	class 'TAPESTRY FINAL CODE'N;
 	model ptMSPSS_sumScore ptMSPSS_sigothSum ptMSPSS_familySum 
@@ -147,6 +161,7 @@ proc anova data=biohac26_2;
 	;
 	run;
 quit;
+
 proc anova data=biohac26_2;
 	class 'TAPESTRY FINAL CODE'N;
 	model ptPROMIS_combAnxTsc ptPROMIS_combDepTsc ptPROMIS_combPhyTsc 
@@ -154,12 +169,13 @@ proc anova data=biohac26_2;
 	;
 	run;
 quit;
-/*********************ANOVA by Gender and Agegrp*****/
 
+/*********************ANOVA by Gender and Agegrp*****/
 proc import datafile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\Patients - Spatial data Study ID ONLY.xls" 
 		out=work.biohac26_3 dbms=xls replace;
 	sheet="US_only_Export_Geocode limited";
 run;
+
 proc contents data=biohac26_3 position;
 run;
 
@@ -190,9 +206,11 @@ proc anova data=biohac26_3;
 		'2025 Renter Occupied HUs: Percen'n=Gender2;
 	run;
 quit;
+
 proc freq data=biohac26_3;
 	table Gender2*'TAPESTRY_FINAL_CODE'n/chisq expected;
 run;
+
 proc anova data=biohac26_3;
 	class Agegrp;
 	model 'NLCD Proportion Classified Land'n 'COI Overall'n 'COI Education'n 
@@ -209,6 +227,108 @@ proc anova data=biohac26_3;
 		'2025 Renter Occupied HUs: Percen'n=Agegrp;
 	run;
 quit;
+
 proc freq data=biohac26_3;
 	table Agegrp*'TAPESTRY_FINAL_CODE'n/chisq expected;
 run;
+
+/*********************Import & Data Merge *****/
+proc import datafile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\Patients - Survey and demographics data.xls" 
+		out=work.biohac26_1 dbms=xls replace;
+	sheet="FINAL";
+run;
+
+proc import datafile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\Patients - Spatial data Study ID ONLY.xls" 
+		out=work.biohac26_11 dbms=xls replace;
+	sheet="US_only_ExportTable_Geocoded_Ex";
+run;
+
+proc sort data=biohac26_1;
+	by stdyid;
+run;
+
+proc sort data=biohac26_11;
+	by stdyid;
+run;
+
+data biohac26;
+	merge biohac26_1 biohac26_11;
+	by stdyid;
+run;
+
+proc import datafile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\Patients - Spatial data Study ID ONLY.xls" 
+		out=work.biohac26_12 dbms=xls replace;
+	sheet="US_only_Export_Geocode limited";
+run;
+
+proc sort data=biohac26;
+	by stdyid;
+run;
+
+proc sort data=biohac26_12;
+	by stdyid;
+run;
+
+data biohac26_final;
+	merge biohac26 biohac26_12;
+	by stdyid;
+run;
+
+proc contents data=biohac26_final position;
+run;
+
+proc export data=biohac26_final outfile="\\fs.stjude.sjcrh.local\common\PSY\Data Science\BioHackathon26\data_for_powerbi.csv" 
+		dbms=csv replace;
+run;
+
+proc sort data=biohac26_final;
+	by Gender2;
+run;
+
+data biohac26_final;
+	set biohac26_final;
+
+	if Gender=1 then
+		Gender2=1;
+	else if Gender=2 then
+		Gender2=2;
+	else
+		Gender2=.;
+run;
+
+proc freq data=biohac26_final;
+	table Agegrp;
+run;
+
+proc means data=biohac26_final;
+	var 'NLCD Proportion Classified Land'n;
+	by Gender2;
+run;
+
+proc means data=biohac26_final;
+	var Child_O_Index1 Child_O_Index2 Child_O_Index3 Child_O_Index4 Child_O_Index5 
+		Child_O_Index6 Child_O_Index7 Child_O_Index8 Child_O_Index9 Child_O_Index10 
+		Child_O_Index11 Child_O_Index12 Child_O_Index13 Child_O_Index14 
+		Child_O_Index15 Child_O_Index16 Child_O_Index17 Child_O_Index18;
+	by Gender2;
+run;
+
+proc means data=biohac26_final;
+	var Var21 Var62 Var63 Var64 Var65 Var66 Var67 Var68;
+	by Gender2;
+run;
+
+
+proc sort data=biohac26_final;
+	by Agegrp;
+run;
+
+proc means data=biohac26_final;
+	var 'NLCD Proportion Classified Land'nChild_O_Index1 Child_O_Index2 Child_O_Index3 Child_O_Index4 Child_O_Index5 
+		Child_O_Index6 Child_O_Index7 Child_O_Index8 Child_O_Index9 Child_O_Index10 
+		Child_O_Index11 Child_O_Index12 Child_O_Index13 Child_O_Index14 
+		Child_O_Index15 Child_O_Index16 Child_O_Index17 Child_O_Index18
+		Var21 Var62 Var63 Var64 Var65 Var66 Var67 Var68;
+	by Agegrp;
+run;
+
