@@ -10,9 +10,9 @@
 2. look for spatial relationships between psychological well-being and environmental and social variables 
 3. compare results of statistical as analyses using SPSS/SAS to spatial analysis using Geographic Information System (GIS)
 4. create interactive visualizations to present the results 
-- **Tools and stack:** ESRI ArcGIS Pro, QGIS, SAS, SPSS, Power BI, PowerPoint, Excel
+- **Tools and stack:** ESRI ArcGIS Pro, QGIS, R, SAS, SPSS, Power BI, PowerPoint, Excel
 - **Team lead:** Sylwia Feibelman and GitHub sfeibelm
-- **Team members and roles:** [Link to `project-management/team.md`]
+- **Team members and roles:** [`project-management/team.md`](project-management)
 - **Communication:** Slack - Team 17
 5. Consider submitting abstract to KIDS26
 
