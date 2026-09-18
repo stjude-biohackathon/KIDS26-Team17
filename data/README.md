@@ -1,6 +1,6 @@
 Raw data is proprietary and contains PHI. To request access please reach out to project leads.
 
-The [outcomes](/outcometables/) folder contains the xlsx file with multiple sheets relating to outcomes of this project.
+The [outcomes](data/outcometables/) folder contains the xlsx file with multiple sheets relating to outcomes of this project.
 
 ## GreenSpace
 - NLCD 23
